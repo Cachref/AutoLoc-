@@ -21,4 +21,4 @@ sans son parent (composition). `@Data` n'est jamais utilisé (risque de `StackOv
 - **LazyInitializationException** : accéder à une collection LAZY hors transaction la lève ; on la
   traitera par des requêtes dédiées (Atelier 7) plutôt qu'en passant en EAGER.
 - **Côté inverse** : chaque `@OneToMany` utilise `mappedBy`, donc aucune colonne ni table de jointure
-  supplémentaire n'est créée (seule `vehicule_equipement` existe, pour le `@ManyToMany`).
+  supplémentaire n'est créée (seule `vehicule_equipement` existe, pou r le `@ManyToMany`).
